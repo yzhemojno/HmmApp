@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon4"
+    tools:context=".LogRegActivity">
+
+
+    <TextView
+        android:id="@+id/txtStatusDriver"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:gravity="center"
+        android:text="Тебе придется это сделать..."
+        android:textColor="#FFf"
+        android:textSize="25sp"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:id="@+id/txtPodstatusDriver"
+        android:layout_width="399dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:text="Авторизуйтесь или, если у Вас нет аккаунта, зарегистрируйтесь."
+        android:textColor="#FFf"
+        android:gravity="center"
+
+        />
+
+    <EditText
+        android:id="@+id/emailDriver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="E-mail"
+        android:ems="30"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_marginTop="330dp"
+        android:layout_centerHorizontal="true"
+        android:background="#C0C0C0"
+
+
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/passDriver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:textColor="#000000"
+
+        android:ems="30"
+        android:inputType="textPassword"
+        android:layout_marginTop="370dp"
+        android:background="#C0C0C0"
+        android:textSize="20sp"
+
+
+        />
+
+    <Button
+        android:id="@+id/btnDriverLog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Войти"
+        android:background="@drawable/btnauth"
+        android:layout_marginTop="425dp"
+        android:textColor="#FFf"
+        android:layout_centerHorizontal="true"
+        android:textStyle="italic"
+
+
+        />
+
+    <TextView
+        android:id="@+id/txtNotAkkDriver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="У Вас нет аккаунта?"
+        android:textColor="#C0C0C0"
+        android:layout_marginTop="480dp"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <Button
+        android:id="@+id/btnDriverReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Зарегистрироваться"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/btnauth"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFf"
+        android:textStyle="italic"
+        android:visibility="invisible"
+
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="700dp"
+        android:textColor="#FFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="this app is created by @yzhemojno" />
+
+
+</RelativeLayout>

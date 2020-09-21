@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon3"
+    tools:context=".MenuActivity">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Если ты заблудился, во круг тебя темнота и ты хочешь почитать новости, то это приложение специально для тебя!
+Нажимай на кнопки ниже!"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:textColor="#FFF"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textStyle="italic"
+
+        />
+
+    <Button
+        android:id="@+id/MapsBtn"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFF"
+        android:background="@drawable/btnfonmap"
+
+        android:text="Карта" />
+
+    <Button
+        android:id="@+id/CamBtn"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="180dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btnfonflash"
+        android:textColor="#FFF"
+
+        android:text="Фонарик" />
+
+    <Button
+        android:id="@+id/WebBtn"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="260dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFF"
+        android:background="@drawable/btnfonnews"
+
+        android:text="Новости" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="700dp"
+        android:layout_centerHorizontal="true"
+        android:text="Разработано инженерами, а не маркетологами. 2020"
+        android:textColor="#FFF"/>
+
+</RelativeLayout>
